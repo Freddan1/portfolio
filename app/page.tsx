@@ -1,13 +1,12 @@
 'use client'
-import Image from "next/image";
 import Hero from "./components/Hero";
 import { FloatingNav } from "./components/ui/FloatingNavbar";
-import { FaHome } from "react-icons/fa";
 import Grid from "./components/Grid";
 import { navItems } from "@/data";
 import RecentProjects from "./components/RecentProjects";
 import Clients from "./components/Clients";
 import Experience from "./components/Experience";
+import Approach from "./components/Approach";
 
 export default function Home() {
   return (
@@ -20,6 +19,7 @@ export default function Home() {
           <RecentProjects />
           <Clients />
           <Experience />
+          <Approach />
         </h1>
       </div>
     </main>

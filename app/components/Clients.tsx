@@ -18,7 +18,7 @@ const Clients = () => {
         </div>
         <div className='flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg: mt-10'>
             {companies.map(({id, img, name, nameImg}) => (
-                <div key={id} className='flex md:max-w-60 max-w-32 gap-2'>
+                <div key={id} className='flex md:max-w-60 max-w-32 gap-2 items-center'>
                     <img 
                     src={img} 
                     alt={name}
