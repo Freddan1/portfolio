@@ -142,7 +142,6 @@ export const companies = [
     id: 1,
     name: "Firebase",
     img: "/firebase.svg",
-    nameImg: "/firebaseName.svg",
   },
   {
     id: 2,
