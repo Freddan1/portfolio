@@ -2,7 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Approach", link: "#approach" },
 ];
 
 export const gridItems = [
@@ -145,21 +145,18 @@ export const companies = [
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "React",
+    img: "/React-icon.svg.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Next.js",
+    img: "/next-js-logo.svg",
+    nameImg: "/next-js-text.svg"
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "/storybook-logo.svg",
   },
   {
     id: 5,
